@@ -20,7 +20,7 @@
    $distance.innerHTML = `<h1>${distanceHint}</h1>`;
  
    if (distance < 20 ) {
-     alert(`ENCONTRO LA GAUCA EN ${clicks} clicks!`);
+     alert(`Find it ${clicks} clicks!`);
      location.reload();
    }
  });
